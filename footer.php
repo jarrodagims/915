@@ -51,8 +51,9 @@
                         </div>
                         <div class="col borders  col-md-1"></div>
 
-                        <div class="col flex-col">
-                            <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary">GET A QUOTE</button></a>
+                        <div class="col flex-col button-col">
+                            <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary">GET A
+                                    QUOTE</button></a>
                             <a
                                 href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>"><button
                                     class="btn btn-outline">CALL US

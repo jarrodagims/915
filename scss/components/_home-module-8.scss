@@ -3,6 +3,22 @@
     overflow: hidden;
     padding-bottom: 60px;
 
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+
+//     .extra-padding {
+//         display: flex;
+//         flex-direction: column;
+//         flex: 1;
+
+//         p {
+//             margin-bottom: 0;
+//             margin-top: auto;
+//         }
+//     }
+
    &::before {
        content: '';
        background: $sherpa-dark-color;

@@ -167,15 +167,11 @@ Template Name: Home
                     Services" />
                 </picture>
 
-                <div class="extra-padding">
-                    <h2>For Lawn Care, Mowing<br class="br-xs">
-                        Services and More</h2>
-                    <h3>915 Siteworks also offers a variety
-                        of <a href="<?=SITEURL?>/landscaping/">landscaping services</a>.</h3>
-                    <p>This includes lawn mowing and maintenance, cutting trees and shrubbery, irrigation, grass upkeep,
-                        and more. If you’re looking for quality services for your front lawn or backyard, we assure you
-                        — we’ll get the job done!
-                    </p>
+                <div id="attach-to-1" class="extra-padding">
+                    <h2>Lawn Care & Mowing Services</h2>
+                    <h3>915 Siteworks also offers a variety of <a href="<?=SITEURL?>/landscaping/">landscaping
+                            services</a>.</h3>
+
                 </div>
             </div>
             <div class="col">
@@ -186,20 +182,10 @@ Template Name: Home
                     Services" />
                 </picture>
 
-                <div class="extra-padding">
+                <div id="attach-to-2" class="extra-padding">
                     <h2>Land Preparation Services</h2>
-
-
-
-
                     <h3>If you’re cleaning up your property or doing some renovation work, be sure to ask about our
                         <a href="<?=SITEURL?>/dumpster-rental-el-paso/">dumpster rental</a>.</h3>
-                    <p>Our dumpsters will make the cleanup process easy and convenient. We’ll drop it off and clear it
-                        out as much as you need. We also offer <a
-                            href="<?=SITEURL?>/land-clearing-services-el-paso/">land clearing</a> and <a
-                            href="<?=SITEURL?>/land-grading-services-el-paso/">grading</a> to prepare a property for
-                        your
-                        upcoming construction projects.</p>
                 </div>
             </div>
             <div class="col">
@@ -210,10 +196,37 @@ Template Name: Home
                     Services" />
                 </picture>
 
-                <div class="extra-padding">
+                <div id="attach-to-3" class="extra-padding">
                     <h2>Value Proposition</h2>
                     <h3>As a locally owned and operated company, we feel a strong connection with the people of El Paso.
                     </h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col" id="attach-to-1-desk">
+                <div class="attach-me" data-target-mobile="#attach-to-1" data-target-desk="#attach-to-1-desk">
+                    <p>This includes lawn mowing and maintenance, cutting trees and shrubbery, irrigation, grass upkeep,
+                        and more. If you’re looking for quality services for your front lawn or backyard, we assure you
+                        — we’ll get the job done!
+                    </p>
+                </div>
+            </div>
+
+            <div class="col" id="attach-to-2-desk">
+                <div class="attach-me" data-target-mobile="#attach-to-2" data-target-desk="#attach-to-2-desk">
+                    <p>Our dumpsters will make the cleanup process easy and convenient. We’ll drop it off and clear it
+                        out as much as you need. We also offer <a
+                            href="<?=SITEURL?>/land-clearing-services-el-paso/">land clearing</a> and <a
+                            href="<?=SITEURL?>/land-grading-services-el-paso/">grading</a> to prepare a property for
+                        your
+                        upcoming construction projects.</p>
+                </div>
+            </div>
+
+            <div class="col" id="attach-to-3-desk">
+                <div class="attach-me" data-target-mobile="#attach-to-3" data-target-desk="#attach-to-3-desk">
                     <p>For us, it is important that homeowners get the best quality home. Even if we have a small role
                         to play, we know it’s an important one. The insulation on a home means a lot to its overall
                         performance, quality, durability, and energy efficiency. We strive to make the process as easy
