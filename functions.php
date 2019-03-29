@@ -221,3 +221,6 @@ function override_mce_options($initArray) {
 	return $initArray;
 }
 add_filter('tiny_mce_before_init', 'override_mce_options');
+
+// Disable use XML-RPC
+add_filter( 'xmlrpc_enabled', '__return_false' );
