@@ -140,7 +140,7 @@ counter"></a></div>
 
                 <div class="jumbotron">
                     <?php
-            $sm = new SocialMedia(array('facebook', 'twitter', 'linkedin'));
+            $sm = new SocialMedia(array('facebook', 'twitter'));
             $sm->setSize('sm');
             $sm->showNetworkButtons();
             $sm->setColorType('singleColor');
@@ -148,7 +148,9 @@ counter"></a></div>
 
                     <div class="jumbo-content">
                         <h1>
-                            <span>915 Siteworks</span>
+                            <span><img src="<?= IMGURL; ?>logo.svg" alt="<?php echo get_bloginfo(
+            'description'
+            ); ?>" /></span>
                             <div>Spray Foam <br class="br-xs">Insulation
                             </div>
                             <em>Installing The Most <br class="br-xs">Energy-Efficient Insulation</em>

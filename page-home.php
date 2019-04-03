@@ -162,13 +162,12 @@ Template Name: Home
         <div class="row">
             <div class="col">
                 <picture>
-                    <source srcset="<?=IMGURL?>lawnmower.jpg" media="(min-width: 992px)">
-                    <img src="<?=IMGURL?>lawnmower-sm.jpg" alt="Lawn Care, Mowing
-                    Services" />
+                    <source srcset="<?=IMGURL?>landscaping-services-el-paso.jpg" media="(min-width: 992px)">
+                    <img src="<?=IMGURL?>lawnmower-sm.jpg" alt="Lawn Care" />
                 </picture>
 
                 <div id="attach-to-1" class="extra-padding">
-                    <h2>Lawn Care & Mowing Services</h2>
+                    <h2>Landscaping Services</h2>
                     <h3>915 Siteworks also offers a variety of <a href="<?=SITEURL?>/landscaping/">landscaping
                             services</a>.</h3>
 
@@ -177,7 +176,7 @@ Template Name: Home
             <div class="col">
 
                 <picture>
-                    <source srcset="<?=IMGURL?>dig.jpg" media="(min-width: 992px)">
+                    <source srcset="<?=IMGURL?>land-preparation-el-paso.jpg" media="(min-width: 992px)">
                     <img src="<?=IMGURL?>dig-sm.jpg" alt="Lawn Care, Mowing
                     Services" />
                 </picture>

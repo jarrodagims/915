@@ -419,8 +419,8 @@ body {
           padding: 0 0;
           text-align: center;
           margin: 0 auto;
-          background-size: cover;
-          background: url("../img/bg-mid-banner.jpg") 0 0 no-repeat;
+//           background-size: cover;
+//           background: url("../img/bg-mid-banner.jpg") 0 0 no-repeat;
 
           @include media-breakpoint-down(md) {
             margin-top: 2em;
