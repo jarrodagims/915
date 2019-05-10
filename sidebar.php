@@ -5,7 +5,7 @@
                 echo do_shortcode('[contact-form-7 id="125" title="Contact Form"]');
             } else {
                 echo do_shortcode('[contact-form-7 id="125" title="Contact Form"]');
-            }
+            } 
             ?>
     </div>
 </div>
