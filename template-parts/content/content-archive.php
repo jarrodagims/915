@@ -25,7 +25,7 @@
 
 			endif;
 
-			echo "<article class='col-md-6 col-sm-12'>";
+			echo "<article class='col-lg-6 col-xs-12'>";
 			?>
 <?php
 			echo "<div class=\"blog-post\">";
@@ -38,7 +38,7 @@
 <?php
 			endif;
 			echo '<h3><a href="' . $permalink . '">';
-            echo short_title('...', 5);
+            echo the_title();
             echo '</a>' . $edit_link . '</h3>';
             echo '<p>';
             sherpa_excerpt();
